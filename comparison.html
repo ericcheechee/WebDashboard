@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="index.css">
+      <title>Latitude Analysis DashBoard with Attitude</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class='col-sm-6'>
+            <a class="navbar-brand box" href="index.html">Latitude</a></div>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="maxtemp.html">Max Temperature</a></li>
+                  <li><a href="humidity.html">Humidity</a></li>
+                  <li><a href="cloudiness.html">Cloudiness</a></li>
+                  <li><a href="windspeed.html">Wind Speed</a></li>
+                </ul>
+              <li><a href="comparison.html">Comparison</a></li>
+              <li><a href="data.html">Data</a></li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="container">
+  			<div class="row">
+  				<div class="col-md-12">
+  					<div class="panel panel-default">
+    						<div class="panel-body">
+    							<h1> Comparison: Latitude vs. X</h1>
+    							<hr>
+    							<span> Click any plot to get an in-depth analysis.</span>
+     								<div class="row">
+    									 <div class="col-md-6">
+    									 	<h3>Max Temperature</h3>
+    									 </div>
+    									 <div class="col-md-6">
+    									 	<h3>vs. Humidity</h3>
+    									 </div>
+    								</div>
+
+    								<div class="row">
+    									 <div class="col-sm-5 col-md-6">
+      									<a href="maxtemp.html" class="thumbnail">
+        									<img class="img-review" src="https://lh3.googleusercontent.com/7Q9C8jDNKGDkgoKfmRbhq1xTNg8nisTbwjBdZx_whX2gKTSCU_VJR_0-IyxOdbYEJ7TrAh-H0juxpOieeucjG3G9nlzX5L4ebfTbCEjOJlgKzJfbdu-DESoeAbaF1BWV59qo3xC9v0Y=w2400" alt="maxtemp">
+      									</a>
+    									</div>
+    									<div class="col-sm-6 col-md-6">
+      									<a href="humidity.html" class="thumbnail">
+        									<img class="img-review" src="https://lh3.googleusercontent.com/2ur2gzyyem60O8SIG9LNhHCJuXW_6flmizYKuk7nSbLkrmznnIo_tWKO0V7qK9xBiIk_IUveh0ekSep4e46ftSe2Q0OdHI48iAdSsZNJo5E9WuDYkJHZr5Vcys18lHJ67Q-JQSam7tk=w2400" alt="humidity">
+      									</a>
+    									</div>
+    								</div>
+     								<div class="row">
+    									 <div class="col-md-6">
+    									 	<h3>Cloudiness</h3>
+    									 </div>
+    									 <div class="col-md-6">
+    									 	<h3>vs. Wind Speed</h3>
+    									 </div>
+    								</div>
+    								<div class="row">
+    									<div class="col-sm-5 col-md-6">
+      									<a href="cloudiness.html" class="thumbnail">
+        									<img class="img-review" src="https://lh3.googleusercontent.com/sn1K8Ofm9--jsB1MHT_DmXSCh_Q9TAhs2XRrrSbb1Ksb5g8YJQtCW4goR1GaY8hJEOFITnLqjdO73phuY9vQPV3kySf5feeGHqEGiW7aEiJ30d_it788zXrhrfilV9f-ubbgjxwc81s=w2400" alt="cloudiness">
+      									</a>
+    									</div>
+    									<div class="col-sm-5 col-md-6">
+      									<a href="windspeed.html" class="thumbnail">
+        									<img class="img-review" src="https://lh3.googleusercontent.com/1DOCa0SvKqVnnrzr4fyMj-dqPrsDvFEw0uvei2__xVQaWa8RqZeqoVaLWjLhO2et97MJfrFcxX32VqDbtIc5rUXnVHWgufusOzTA5DwxcJRBBwmzHsOP9X-RgAHMwRgyqI1x5QfMRIA=w2400" alt="windspeed">
+      									</a>
+    									</div>
+  								</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+    </body>
+    </html>
